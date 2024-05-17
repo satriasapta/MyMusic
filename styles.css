@@ -1,0 +1,54 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 24px;
+    width: auto;
+    height: 80px;
+    background: #3D3759;
+}
+
+.frame3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0 12px 40px;
+    gap: 36px;
+    width: 272px;
+    height: 80px;
+    background: #3D3759;
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: -12px;
+    top: 0;
+}
+
+
+/* MyMusic */
+.mymusic {
+    position: absolute;
+    width: 131px;
+    height: 38px;
+    left: 44px;
+    top: 9px;
+    font-family: 'Urbanist', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
