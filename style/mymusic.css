@@ -1,0 +1,404 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Navigation */
+.navigation {
+    /* Navigation */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    /* Other/Paper */
+    background: #312D4B;
+    /* Other/Outline Border */
+    border-bottom: 1px solid rgba(231, 227, 252, 0.23);
+
+}
+
+/* Frame 3 */
+.frame3 {
+    /* Frame 3 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px 12px 40px;
+
+    width: 272px;
+    height: 80px;
+
+    /* Other/Page Header */
+    background: #3D3759;
+    /* Other/Outline Border */
+    border-right: 1px solid rgba(231, 227, 252, 0.23);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+/* Logo */
+.logo {
+    /* Logo */
+
+    width: 175px;
+    height: 56px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.logo2 {
+    /* Logo */
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 32px;
+    top: calc(50% - 38px/2);
+
+
+}
+
+/* MyMusic */
+.my-music {
+    /* MyMusic */
+
+    position: absolute;
+    width: 131px;
+    height: 38px;
+    left: 84px;
+    top: calc(50% - 38px/2);
+
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+
+    /* Text (Light)/Primary */
+    color: #FFFFFF;
+
+
+}
+
+/* Frame 42 */
+.frame42 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0;
+    gap: 36px;
+    width: 820px;
+    height: 80px;
+    flex-grow: 1;
+}
+
+.select {
+    /* Select */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+
+    width: 820px;
+    height: 48px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+/* Input */
+.input {
+    /* Input */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 12px;
+
+    width: 820px;
+    height: 48px;
+
+    /* Other/Input Field Bg */
+    background: #E7E3FC0A;
+
+    /* Other/Input Border */
+    border: 1px solid rgba(231, 227, 252, 0.22);
+    border-radius: 50px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.inactive {
+    /* Inactive */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 8px;
+
+    width: 796px;
+    height: 48px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.search {
+    /* Material Icon */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.label-inactive {
+    /* Label Inactive */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 764px;
+    height: 22px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    background: #E7E3FC0A;
+    color: #C1C2C4;
+    border: none;
+    outline: none;
+
+}
+
+/* Frame 43 */
+.frame43 {
+    /* Frame 43 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 40px;
+    gap: 36px;
+
+    width: 300px;
+    height: 80px;
+
+    /* Other/Outline Border */
+    border-left: 1px solid rgba(231, 227, 252, 0.23);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+/* Frame 1000004271 */
+.frame1000004271 {
+    /* Frame 1000004271 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    isolation: isolate;
+
+    width: 44px;
+    height: 44px;
+
+    background: rgba(253, 232, 210, 0.2);
+    /* Other/Outline Border */
+    border: 1px solid rgba(231, 227, 252, 0.23);
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.lonceng {
+    /* Material Icon */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 24px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+
+}
+
+/* Notifications */
+.notifications {
+    /* Frame 1000004272 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1210px;
+    top: 2px;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    /* Primary/Default */
+    background: #F7A701;
+    /* Other/Border */
+    border: 1px solid rgba(58, 53, 65, 0.12);
+    border-radius: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+
+.profile {
+    /* Frame 1000004496 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 140px;
+    height: 44px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+/* Avatar */
+.avatar {
+    width: 44px;
+    height: 44px;
+    background: url('/assets/Avatar.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.name {
+    /* Hi, Jennie */
+
+    width: 90px;
+    height: 25px;
+
+    /* WebApp/Body Large/Large-Semibold */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    /* Text (Light)/Secondary */
+    color: #C1C2C4;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
