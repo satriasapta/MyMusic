@@ -14,7 +14,6 @@
     align-items: center;
     padding: 0px;
     gap: 24px;
-
     position: absolute;
     width: 1440px;
     height: 80px;
@@ -26,6 +25,11 @@
     /* Other/Outline Border */
     border-bottom: 1px solid rgba(231, 227, 252, 0.23);
 
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }
 
 /* Frame 3 */
@@ -113,7 +117,7 @@
     align-items: center;
     padding: 16px 0;
     gap: 36px;
-    width: 820px;
+    width: 57%;
     height: 80px;
     flex-grow: 1;
 }
@@ -128,7 +132,7 @@
     padding: 0px;
     gap: 3px;
 
-    width: 820px;
+    width: 55%;
     height: 48px;
 
 
@@ -151,7 +155,7 @@
     align-items: flex-start;
     padding: 0px 12px;
 
-    width: 820px;
+    width: 100%;
     height: 48px;
 
     /* Other/Input Field Bg */
@@ -179,7 +183,7 @@
     padding: 12px 0px;
     gap: 8px;
 
-    width: 796px;
+    width: 80%;
     height: 48px;
 
 
@@ -221,7 +225,7 @@
     padding: 0px;
     gap: 10px;
 
-    width: 764px;
+    width: 100%;
     height: 22px;
     /* Inside auto layout */
     flex: none;
@@ -271,8 +275,6 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 10px;
-    gap: 10px;
-    isolation: isolate;
 
     width: 44px;
     height: 44px;
@@ -315,7 +317,7 @@
     /* Frame 1000004272 */
 
     box-sizing: border-box;
-
+    position: relative;
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -323,12 +325,10 @@
     align-items: center;
     padding: 0px;
     gap: 10px;
-
-    position: absolute;
     width: 26px;
     height: 26px;
-    left: 1210px;
-    top: 2px;
+
+    top: -22px;
     color: #FFFFFF;
     font-family: 'Open Sans';
     /* Primary/Default */
@@ -355,7 +355,7 @@
     padding: 0px;
     gap: 16px;
 
-    width: 140px;
+    width: 20%;
     height: 44px;
 
 
@@ -399,6 +399,803 @@
     /* Inside auto layout */
     flex: none;
     order: 1;
+    flex-grow: 0;
+}
+
+.content {
+    /* Frame 1000004511 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: auto;
+    height: 1437px;
+    left: 0px;
+    top: 80px;
+    background-color: #28243d;
+}
+
+.sidebar {
+    /* Text Field/Dropdown Menu */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 40px;
+
+
+    width: 272px;
+    height: 1437px;
+
+    /* Other/Page Header */
+    background: #3D3759;
+    /* Other/Outline Border */
+    border-right: 1px solid rgba(231, 227, 252, 0.23);
+
+
+
+}
+
+.menu {
+    /* Frame 1000004497 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 192px;
+    height: 334px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.list-menu {
+    /* List Menu */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0px;
+    gap: 5px;
+
+    width: 192px;
+    height: 54px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.menu {
+    /* WebApp/Body Medium/Medium-Bold */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    letter-spacing: 0.2px;
+    /* Text (Light)/Primary */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.my-music2 {
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 192px;
+    height: 200px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.my-music2 {
+    /* WebApp/Body Medium/Medium-Bold */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    display: flex;
+    letter-spacing: 0.2px;
+    /* Text (Light)/Primary */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.my-playlist {
+    /* Frame 1000004499 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 192px;
+    max-height: 370px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.plus {
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    left: 210px;
+}
+
+.under-playlist {
+    /* Frame 1000004505 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 6px;
+    gap: 8px;
+
+    width: 134px;
+    height: 34px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.button {
+    /* Chip */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+
+    width: 61px;
+    height: 28px;
+
+    /* Other/Body */
+    background: #28243D;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.button-text {
+    /* Primary */
+
+    /* Primary */
+
+    width: 41px;
+    height: 20px;
+
+    /* WebApp/Body Small/Small-Regular */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    letter-spacing: 0.2px;
+
+    /* Text (Light)/Primary */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-sidebar {
+    /* Card */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px;
+    gap: 10px;
+
+    width: 192px;
+    height: 70px;
+
+    mix-blend-mode: normal;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.playlist-bg {
+    /* Cover Album */
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+
+}
+
+.framename {
+    /* Frame 1000004500 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 132px;
+    height: 49px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+.judul-sidebar {
+    /* Red */
+
+    width: 132px;
+    height: 25px;
+
+    /* WebApp/Body Large/Large-Bold */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    letter-spacing: 0.2px;
+
+    /* Text (Light)/Secondary */
+    color: #C1C2C4;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.penyanyi-sidebar {
+    /* Taylor Swift */
+
+    max-width: 132px;
+    height: 20px;
+
+    /* WebApp/Body Small/Small-Regular */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    letter-spacing: 0.2px;
+
+    /* Text (Light)/Secondary */
+    color: #C1C2C4;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.main-content {
+    /* Frame 1000004499 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 32px;
+
+    width: 1168px;
+    height: 1437px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.most-played-frame {
+    /* Frame 1000004505 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1088px;
+    height: 310px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.most-played-top {
+    /* Frame 1000004555 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 1088px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    /* align-self: stretch; */
+    flex-grow: 0;
+
+}
+
+.most-played-text {
+    /* Most Played Playlists */
+    height: 29px;
+
+    /* WebApp/Heading/Heading 4
+
+Judul Sub-Konten di dalam Section
+*/
+    text-align: right;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+    /* Text (Light)/Primary */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.most-played-showall {
+    /* Show All */
+
+    width: 65px;
+    height: 22px;
+    text-align: end;
+    /* WebApp/Body Medium/Medium-Bold */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    letter-spacing: 0.2px;
+
+    /* Text (Light)/Primary */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.most-played-content {
+    /* Frame 1000004502 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+    width: 1088px;
+    height: 257px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.most-played-card {
+    /* Card */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+
+    margin: 0 auto;
+    width: 198px;
+    height: 257px;
+
+    background: rgba(255, 255, 255, 0.05);
+    mix-blend-mode: normal;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.most-played-img {
+    /* Frame 1000004514 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 166px;
+    height: 166px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.box-under-frame {
+    /* Frame 1000004500 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 166px;
+    height: 49px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.name-most-played {
+    /* Taylor’s Discography */
+
+    width: 166px;
+    height: 25px;
+
+    /* WebApp/Body Large/Large-Bold */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    letter-spacing: 0.2px;
+
+    /* Text (Light)/Secondary */
+    color: #C1C2C4;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.description-most-played {
+    /* Taylor Swift */
+
+    width: 80px;
+    height: 20px;
+
+    /* WebApp/Body Small/Small-Regular */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    letter-spacing: 0.2px;
+
+    /* Text (Light)/Secondary */
+    color: #C1C2C4;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.most-played-songs-frame {
+    /* Frame 1000004505 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1088px;
+    height: 332px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.songs-content {
+    /* Frame 1000004502 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 25px;
+
+    width: 1088px;
+    height: 278px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.songs-column-content {
+    /* Frame 1000004515 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 346px;
+    height: 278px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.card-songs {
+    /* Card */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+
+    width: 346px;
+    height: 82px;
+
+    background: rgba(255, 255, 255, 0.05);
+    mix-blend-mode: normal;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.content-songs {
+    /* Frame 1000004522 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 314px;
+    height: 50px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.content-songs-img {
+    /* Cover Album */
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.description-frame-songs {
+    /* Frame 1000004500 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    width: 254px;
+    height: 49px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+.title-songs {
+    /* Red */
+
+    width: 254px;
+    height: 25px;
+
+    /* WebApp/Body Large/Large-Bold */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+    letter-spacing: 0.2px;
+
+    /* Text (Light)/Secondary */
+    color: #C1C2C4;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.description-songs {
+    /* Taylor Swift */
+
+    width: 254px;
+    height: 20px;
+
+    /* WebApp/Body Small/Small-Regular */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    letter-spacing: 0.2px;
+
+    /* Text (Light)/Secondary */
+    color: #C1C2C4;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
     flex-grow: 0;
 
 }
